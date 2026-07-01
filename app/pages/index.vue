@@ -29,6 +29,28 @@
       <p class="mt-4 text-[13.5px] leading-[1.7] text-ink/70 font-body">
         Sullivan exists before ideas acquire momentum.
       </p>
+
+      <!-- More info toggle -->
+      <button
+        @click="showMore = !showMore"
+        class="mt-6 text-[12px] text-muted font-body hover:text-ink transition-colors duration-150 cursor-pointer bg-transparent border-0 p-0"
+      >
+        {{ showMore ? 'Less' : 'More info...' }}
+      </button>
+
+      <Transition name="fade">
+        <div v-if="showMore" class="mt-6 space-y-4">
+          <p class="text-[13.5px] leading-[1.7] text-ink/70 font-body">
+            Sullivan is a product judgment practice. We work with founders and product teams at the moment before an idea becomes a roadmap — when the most consequential decisions are still reversible.
+          </p>
+          <p class="text-[13.5px] leading-[1.7] text-ink/70 font-body">
+            Our practice is built on the belief that clarity about what not to build is rarer, and more valuable, than any individual feature.
+          </p>
+          <p class="text-[13.5px] leading-[1.7] text-ink/70 font-body">
+            Sullivan is the collaborative practice of father and son Scott and Alex Falconer, informed by decades of experience across design, engineering, operations and early stage investment.
+          </p>
+        </div>
+      </Transition>
     </div>
 
     <!-- Rule -->
@@ -61,4 +83,16 @@
 
 <script setup lang="ts">
 const { list } = useObservations()
+const showMore = ref(false)
 </script>
+
+<style scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.25s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>
