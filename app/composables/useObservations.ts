@@ -7,9 +7,9 @@ export interface Observation {
 export function useObservations() {
   const list: Observation[] = [
     {
-      slug: 'anyone-can-build',
+      slug: 'every-tool-creates-its-own-excess',
       number: 'I',
-      title: 'Anyone can build. Few know what deserves to exist.',
+      title: 'Every Tool Creates Its Own Excess.',
     },
     {
       slug: 'panic-architecture',
@@ -17,24 +17,24 @@ export function useObservations() {
       title: 'Panic Architecture',
     },
     {
-      slug: 'form-follows-function',
-      number: 'III',
-      title: 'Form Follows Function',
-    },
-    {
-      slug: 'product-reduction',
-      number: 'IV',
-      title: 'Product Reduction',
-    },
-    {
       slug: 'the-cost-of-addition',
-      number: 'V',
+      number: 'III',
       title: 'The Cost of Addition',
     },
     {
-      slug: 'restraint',
+      slug: 'reduction-is-construction',
+      number: 'IV',
+      title: 'Reduction Is Construction',
+    },
+    {
+      slug: 'digital-stewardship',
+      number: 'V',
+      title: 'Digital Stewardship',
+    },
+    {
+      slug: 'the-editor-replaces-the-builder',
       number: 'VI',
-      title: 'Restraint as Competitive Advantage',
+      title: 'The Editor Replaces the Builder',
     },
   ]
 

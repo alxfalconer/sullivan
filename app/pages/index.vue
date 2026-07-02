@@ -6,7 +6,7 @@
       <img src="/sullivan-ko.png" alt="Sullivan" class="h-[24px] w-auto invert" />
       <a
         href="mailto:hello@sullivanpractice.com"
-        class="text-[11.5px] text-muted font-body no-underline hover:text-ink transition-colors duration-150"
+        class="inquire text-[11.5px] font-medium text-muted font-body no-underline hover:text-ink transition-colors duration-150"
       >
         Inquire
       </a>
@@ -23,10 +23,10 @@
         @done="onHeadlineDone"
       />
       <p class="mt-10 text-[13.5px] leading-[1.7] text-ink/70 font-body" :style="fadeStyle(0)">
-        Every tool eventually creates its own form of excess.
+        Every tool creates its own form of excess.
       </p>
       <p class="mt-4 text-[13.5px] leading-[1.7] text-ink/70 font-body" :style="fadeStyle(1)">
-        Today, that excess is software.
+        Today's excess is software.
       </p>
       <p class="mt-4 text-[13.5px] leading-[1.7] text-ink/70 font-body" :style="fadeStyle(2)">
         What remains scarce is judgment: the ability to distinguish a necessary idea from an unnecessary one, subtraction from accumulation, conviction from panic.
@@ -104,3 +104,4 @@ function fadeStyle(order: number) {
   }
 }
 </script>
+
