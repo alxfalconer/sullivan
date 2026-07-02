@@ -8,32 +8,32 @@ export function useObservations() {
   const list: Observation[] = [
     {
       slug: 'anyone-can-build',
-      number: '001',
+      number: 'I',
       title: 'Anyone can build. Few know what deserves to exist.',
     },
     {
       slug: 'panic-architecture',
-      number: '002',
+      number: 'II',
       title: 'Panic Architecture',
     },
     {
       slug: 'form-follows-function',
-      number: '003',
+      number: 'III',
       title: 'Form Follows Function',
     },
     {
       slug: 'product-reduction',
-      number: '004',
+      number: 'IV',
       title: 'Product Reduction',
     },
     {
       slug: 'the-cost-of-addition',
-      number: '005',
+      number: 'V',
       title: 'The Cost of Addition',
     },
     {
       slug: 'restraint',
-      number: '006',
+      number: 'VI',
       title: 'Restraint as Competitive Advantage',
     },
   ]
