@@ -17,7 +17,7 @@
       <TextReveal
         :text="'The best products are remembered\nfor what they refuse to become.'"
         tag="p"
-        class="font-display text-[1.625rem] font-normal leading-[1.2] text-ink hyphens-none"
+        class="font-display text-[1.4rem] sm:text-[1.625rem] font-normal leading-[1.2] text-ink hyphens-none max-w-full"
         :skip="alreadyPlayed"
         @midpoint="onHeadlineMidpoint"
         @done="onHeadlineDone"

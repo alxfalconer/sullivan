@@ -70,7 +70,7 @@ onUnmounted(() => observer?.disconnect())
 
 <style scoped>
 .tr-char {
-  display: inline-block;
+  display: inline;
   opacity: 0;
 }
 
